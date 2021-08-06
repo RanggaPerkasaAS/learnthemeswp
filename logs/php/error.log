@@ -1,0 +1,309 @@
+[05-Aug-2021 02:35:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ASUS\Local Sites\custom\app\public\wp-admin\includes\theme.php on line 605
+[05-Aug-2021 02:35:15 UTC] PHP Stack trace:
+[05-Aug-2021 02:35:15 UTC] PHP   1. {main}() C:\Users\ASUS\Local Sites\custom\app\public\wp-admin\admin-ajax.php:0
+[05-Aug-2021 02:35:15 UTC] PHP   2. do_action() C:\Users\ASUS\Local Sites\custom\app\public\wp-admin\admin-ajax.php:187
+[05-Aug-2021 02:35:15 UTC] PHP   3. WP_Hook->do_action() C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php:470
+[05-Aug-2021 02:35:15 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:327
+[05-Aug-2021 02:35:15 UTC] PHP   5. wp_ajax_query_themes() C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:303
+[05-Aug-2021 02:35:15 UTC] PHP   6. themes_api() C:\Users\ASUS\Local Sites\custom\app\public\wp-admin\includes\ajax-actions.php:3551
+[05-Aug-2021 08:04:48 UTC] PHP Warning:  Use of undefined constant wp_enqueuq - assumed 'wp_enqueuq' (this will throw an Error in a future version of PHP) in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 10
+[05-Aug-2021 08:04:48 UTC] PHP Stack trace:
+[05-Aug-2021 08:04:48 UTC] PHP   1. {main}() C:\Users\ASUS\Local Sites\custom\app\public\wp-admin\admin-ajax.php:0
+[05-Aug-2021 08:04:48 UTC] PHP   2. require_once() C:\Users\ASUS\Local Sites\custom\app\public\wp-admin\admin-ajax.php:22
+[05-Aug-2021 08:04:48 UTC] PHP   3. require_once() C:\Users\ASUS\Local Sites\custom\app\public\wp-load.php:50
+[05-Aug-2021 08:04:48 UTC] PHP   4. require_once() C:\Users\ASUS\Local Sites\custom\app\public\wp-config.php:77
+[05-Aug-2021 08:04:48 UTC] PHP   5. include() C:\Users\ASUS\Local Sites\custom\app\public\wp-settings.php:546
+[05-Aug-2021 08:11:52 UTC] PHP Parse error:  syntax error, unexpected 'integrity' (T_STRING), expecting ')' in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 6
+[05-Aug-2021 08:32:03 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 17
+[05-Aug-2021 08:38:02 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:38:21 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:38:22 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:38:23 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:38:23 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:38:24 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:38:49 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:39:54 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:39:55 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:39:56 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:41:06 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:41:07 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:41:08 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:41:18 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:41:19 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:41:27 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:41:27 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:43:10 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:43:55 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:43:55 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:44:52 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:45:29 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:45:30 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:45:31 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[05-Aug-2021 08:46:11 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(287): array_keys(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2267): do_action('enqueue_block_a...')
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\script-loader.php(2 in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php on line 287
+[06-Aug-2021 03:09:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 15 and exactly 2 expected in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php(15): register_nav_menu(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): temaku_menus('')
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-settings.php(578): do_action('init')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-config.php(77): require_once('C:\\Users\\ASUS\\L...')
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-load.php(50): require_once('C:\\Users\\ASUS\\L.. in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\nav-menu.php on line 136
+[06-Aug-2021 03:09:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 15 and exactly 2 expected in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php(15): register_nav_menu(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): temaku_menus('')
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-settings.php(578): do_action('init')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-config.php(77): require_once('C:\\Users\\ASUS\\L...')
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-load.php(50): require_once('C:\\Users\\ASUS\\L.. in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\nav-menu.php on line 136
+[06-Aug-2021 03:09:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 15 and exactly 2 expected in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php(15): register_nav_menu(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): temaku_menus('')
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-settings.php(578): do_action('init')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-config.php(77): require_once('C:\\Users\\ASUS\\L...')
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-load.php(50): require_once('C:\\Users\\ASUS\\L.. in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\nav-menu.php on line 136
+[06-Aug-2021 03:09:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 15 and exactly 2 expected in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php(15): register_nav_menu(Array)
+#1 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(303): temaku_menus('')
+#2 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\Users\ASUS\Local Sites\custom\app\public\wp-settings.php(578): do_action('init')
+#5 C:\Users\ASUS\Local Sites\custom\app\public\wp-config.php(77): require_once('C:\\Users\\ASUS\\L...')
+#6 C:\Users\ASUS\Local Sites\custom\app\public\wp-load.php(50): require_once('C:\\Users\\ASUS\\L.. in C:\Users\ASUS\Local Sites\custom\app\public\wp-includes\nav-menu.php on line 136
+[06-Aug-2021 04:17:49 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\header.php on line 33
+[06-Aug-2021 07:29:35 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting '(' in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 44
+[06-Aug-2021 07:33:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 45
+[06-Aug-2021 07:35:38 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 50
+[06-Aug-2021 07:35:56 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\functions.php on line 50
+[06-Aug-2021 07:57:56 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\ASUS\Local Sites\custom\app\public\wp-content\themes\temaku\search.php on line 4
